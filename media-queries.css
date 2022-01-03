@@ -51,7 +51,21 @@
 
     footer p {
         margin-top: 75px;
+        float: left;
+        width: 60%;
     }
+    footer a{
+        text-decoration: none;
+        padding: 5px;
+    }
+    #social-media-links{
+        /*display: flex;*/
+        margin-top: 75px;
+        float: right;
+        width: 35%;
+        text-align: right;
+    }
+
 }
 
 /*//////////////////large screen*/
@@ -111,7 +125,36 @@ h2{
 
 footer p{
     float: left;
-    width: 100%;
+    width: 50%;
     margin-top: 80px;
 }
+footer a{
+    text-decoration: none;
+    padding: 5px;
+}
+#social-media-links{
+    /*display: flex;*/
+    margin-top: 80px;
+    float: right;
+    width: 35%;
+    text-align: right;
+}
+
+}
+
+@media screen and (max-width:335px){
+
+ footer{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+ }
+    #social-media-links{
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    footer p{
+        width: 100%;
+    }
 }
