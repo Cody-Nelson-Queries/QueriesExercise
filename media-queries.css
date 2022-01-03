@@ -4,6 +4,19 @@
     padding: 2px;
     font-family: Avenir, sans-serif;
 }
+#social-media-links a {
+    position: relative;
+}
+#social-media-links a:active {
+    bottom: 5px;
+}
+
+.nav-links li:hover {
+    transition: 1s;
+    transform: rotate(360deg);
+    color: orange;
+}
+
 
 @media screen and (max-width:425px) {
     .alert-info {
