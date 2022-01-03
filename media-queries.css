@@ -8,14 +8,14 @@ body{
     background-color: #eefcf7;
 }
 
-#social-media-links a, .nav-links a{
+#social-media-links a, .nav-links a, .alert-info a{
     position: relative;
     color: #85241d;
 }
 #social-media-links a:active {
     top: 2px;
 }
-#social-media-links a:hover, .nav-links a:hover {
+#social-media-links a:hover, .nav-links a:hover, .alert-info a:hover {
     color: green;
 }
 
@@ -32,7 +32,7 @@ footer{
 }
 
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:437px) {
     .alert-info {
         background-color: #c1d3d7;
         text-align: center;
@@ -101,7 +101,7 @@ footer{
 
 /*//////////////////large screen*/
 
-@media screen and (min-width:426px){
+@media screen and (min-width:438px){
 
 .hidden-on-desktop{
     display: none;
