@@ -109,11 +109,9 @@ h2{
     margin: 15px auto;
 }
 
-footer {
-
+footer p{
+    float: left;
+    width: 100%;
+    margin-top: 80px;
 }
-
-
-
-
 }
