@@ -53,3 +53,67 @@
         margin-top: 75px;
     }
 }
+
+/*//////////////////large screen*/
+
+@media screen and (min-width:426px){
+
+.hidden-on-desktop{
+    display: none;
+}
+
+.nav-links{
+    float: right;
+    display: flex;
+    position: relative;
+    top: 15px;
+}
+
+.nav-links a{
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 15px;
+}
+h1{
+    float: left;
+    margin-top: 15px;
+}
+.header-img{
+    clear: both;
+    width: 100%;
+    margin: 15px auto;
+    padding-top: 15px;
+}
+.header-img img{
+    width: 100%;
+    margin: 15px auto;
+}
+
+.main{
+    width: 65%;
+    margin: 0;
+    float: left;
+    padding: 10px;
+}
+.sub-section{
+    width: 35%;
+    margin: 0;
+    float: left;
+    font-style: italic;
+    padding: 10px;
+}
+h2{
+    margin: 15px auto;
+}
+
+footer {
+
+}
+
+
+
+
+}
