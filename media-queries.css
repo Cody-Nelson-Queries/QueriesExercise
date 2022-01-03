@@ -8,11 +8,15 @@ body{
     background-color: #eefcf7;
 }
 
-#social-media-links a {
+#social-media-links a, .nav-links a{
     position: relative;
+    color: #85241d;
 }
 #social-media-links a:active {
     top: 2px;
+}
+#social-media-links a:hover, .nav-links a:hover {
+    color: green;
 }
 
 .nav-links li:hover {
